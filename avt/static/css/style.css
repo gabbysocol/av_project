@@ -1,0 +1,16 @@
+body{
+    font-family: Verdana, fantasy;
+}
+
+.title{
+    color: crimson;
+    text-align: center;
+}
+
+h2{
+    color:navy;
+}
+
+img{
+    width:350px;
+}
