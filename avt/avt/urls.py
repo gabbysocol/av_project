@@ -23,7 +23,7 @@ admin.autodiscover()
 urlpatterns = [
     # path('admin/', admin.site.urls),
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('landing.urls'),
-    url(r'^', include('car.urls'),
-    url(r'^', include('announcement.urls'))
+    url(r'^', include('landing.urls')),
+    # url(r'^', include('car.urls')),
+    # url(r'^', include('announcement.urls')),
 ]
